@@ -1,5 +1,18 @@
-adjective = input("How would you describe Janet? ")
+""" adjective = input("How would you describe Janet? ")
 if adjective == "amazing":
     print("ikr!!")
+elif adjective == "I don't really know her like that":
+    print("u missing out fam")
 else:
-    print("hater smh")
+    print("hater smh") """
+
+""" x = "queen"
+print(f"you're so pretty {x}") """
+
+temp = 69
+if temp > 68:
+    print('warm')
+elif temp == 68:
+    print('perfect')
+else:
+    print('cold')
