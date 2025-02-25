@@ -9,10 +9,16 @@ else:
 """ x = "queen"
 print(f"you're so pretty {x}") """
 
-temp = 69
-if temp > 68:
-    print('warm')
-elif temp == 68:
-    print('perfect')
-else:
-    print('cold')
+bill = 100
+service = input("How was the service? ")
+if service == "bad":
+    print("pls tip pretty pls im js dealing w a lot rn")
+elif service == "okay":
+    input("Would you like to tip 15%? ")
+    if input == "Yes":
+        print(bill)
+elif service == "good":
+    print("Would you like to tip 20%? ")
+elif service == "great":
+    print("Would you like to tip 25%? ")
+
