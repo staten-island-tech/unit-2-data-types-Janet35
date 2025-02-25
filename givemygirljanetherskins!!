@@ -1,0 +1,5 @@
+def skins3(Vbucks, cost, IsAvailable):
+    if Vbucks > 1800 and cost == 1800 and IsAvailable == True:
+        print("oouu Janet u gon eat in this fitty!!")
+    else:
+        print("cash that check girl!!!")
