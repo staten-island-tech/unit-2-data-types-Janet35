@@ -16,7 +16,7 @@ if service == "bad":
 elif service == "okay":
     input("Would you like to tip 15%? ")
     if input == "Yes":
-        print(bill)
+        print(f(bill))
 elif service == "good":
     print("Would you like to tip 20%? ")
 elif service == "great":

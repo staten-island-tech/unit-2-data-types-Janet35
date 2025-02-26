@@ -1,5 +1,11 @@
-def skins(Vbucks, cost, IsAvailable):
+""" def skins(Vbucks, cost, IsAvailable):
     if Vbucks > 1800 and cost == 1800 and IsAvailable == True:
         print("oouu Janet u gon eat in this fitty!!")
     else:
         print("dw girliepop that check take a while sometimes!!")
+
+ """
+text = input("enter text: ")
+for i in text:
+    if "t">"s" and "T">"S":
+        print("English")
