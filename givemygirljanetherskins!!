@@ -5,7 +5,11 @@
         print("dw girliepop that check take a while sometimes!!")
 
  """
-text = input("enter text: ")
-for i in text:
-    if "t">"s" and "T">"S":
-        print("English")
+text = input("what's that one song?? ")
+
+if text.count("t") > text.count("s"):
+    print("English")
+if text.count("t") < text.count("s"):
+    print("French")
+if text.count("t") == text.count("s"):
+    print("French (probs)")
