@@ -9,16 +9,23 @@ else:
 """ x = "queen"
 print(f"you're so pretty {x}") """
 
-bill = 100
+
+x = input("compliment: ")
+y= x.split( )
+print(y)
+z = x.count
+print(z)
+
+
+
+""" 
 service = input("How was the service? ")
 if service == "bad":
     print("pls tip pretty pls im js dealing w a lot rn")
 elif service == "okay":
-    input("Would you like to tip 15%? ")
-    if input == "Yes":
-        print(f(bill))
+    print("Would you like to tip 15%? ")
 elif service == "good":
     print("Would you like to tip 20%? ")
 elif service == "great":
     print("Would you like to tip 25%? ")
-
+ """
