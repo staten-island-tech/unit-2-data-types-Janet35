@@ -10,13 +10,11 @@ else:
 print(f"you're so pretty {x}") """
 
 
-x = input("compliment: ")
-y= x.split( )
-print(y)
-z = x.count
-print(z)
 
-
+values = [1,2.23,5,7,2,30,15]
+print(values)
+for i in values:
+    print(i)
 
 """ 
 service = input("How was the service? ")
