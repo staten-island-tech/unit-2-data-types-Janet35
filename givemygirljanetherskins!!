@@ -23,6 +23,7 @@ while True:
     if int(withdrawal) <= 500:
         bank_balance = bank_balance - int(withdrawal)
         print(bank_balance)
+        break
 
     elif int(withdrawal) > 500:
         print("you brokie!! haha get yo money up not yo funny up")
