@@ -26,12 +26,7 @@ while True:
 
     elif int(withdrawal) > 500:
         print("you brokie!! haha get yo money up not yo funny up")
-
-        new_withdrawal == input("Withdraw amount of money you have or less: ")
-        if int(new_withdrawal) <= 500:
-            bank_balance == bank_balance - int(new_withdrawal)
-            print(bank_balance)
-
+        
     else:
         if input == "nah nvm g":
             print("okay js say u aint got cash like that")
