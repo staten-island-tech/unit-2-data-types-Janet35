@@ -9,12 +9,10 @@ else:
 """ x = "queen"
 print(f"you're so pretty {x}") """
 
-
-
-values = [1,2.23,5,7,2,30,15]
-print(values)
-for i in values:
-    print(i)
+""" x = input("compliment: ")
+y= x.split( )
+print(y)
+ """
 
 """ 
 service = input("How was the service? ")
@@ -27,3 +25,11 @@ elif service == "good":
 elif service == "great":
     print("Would you like to tip 25%? ")
  """
+
+def find_factors(num1, num2):
+    factors = []
+    for i in range(1, min(num1, num2) + 1):
+        if num1 % i == 0 and num2 % i == 0:
+            factors.append(i)
+    return max(factors)
+print(find_factors(69, 138))
